@@ -52,7 +52,7 @@ class Esercizio {
       System.out.print("Inserire un numero: ");
       t = Integer.parseInt(in.next());
       for(int i = 0; i < n; i++){
-        for(int j = i+1; j < n-1; j++){
+        for(int j = i+1; j < n; j++){
           if(t == (u[i] + u[j])){
             System.out.println(u[i] + " + " + u[j] + " = " + t);
           }
